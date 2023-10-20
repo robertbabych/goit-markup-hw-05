@@ -130,6 +130,7 @@
                 alt="Mark Guerrero"
                 width="264"
                 height="260" />
+
               <div class="teammate-container">
                 <h3 class="team-item-title">Mark Guerrero</h3>
                 <p class="team-item-text">Product Designer</p>
@@ -145,6 +146,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -156,6 +158,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -167,6 +170,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -181,6 +185,7 @@
                 </ul>
               </div>
             </li>
+
             <li class="team-item">
               <img
                 class="team-img"
@@ -188,6 +193,7 @@
                 alt="Tom Ford"
                 width="264"
                 height="260" />
+
               <div class="teammate-container">
                 <h3 class="team-item-title">Tom Ford</h3>
                 <p class="team-item-text">Frontend Developer</p>
@@ -203,6 +209,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -214,6 +221,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -225,6 +233,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -239,6 +248,7 @@
                 </ul>
               </div>
             </li>
+
             <li class="team-item">
               <img
                 class="team-img"
@@ -246,6 +256,7 @@
                 alt="Camila Garcia"
                 width="264"
                 height="260" />
+
               <div class="teammate-container">
                 <h3 class="team-item-title">Camila Garcia</h3>
                 <p class="team-item-text">Marketing</p>
@@ -261,6 +272,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -272,6 +284,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -283,6 +296,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -304,6 +318,7 @@
                 alt="Daniel Wilson"
                 width="264"
                 height="260" />
+
               <div class="teammate-container">
                 <h3 class="team-item-title">Daniel Wilson</h3>
                 <p class="team-item-text">UI Designer</p>
@@ -319,6 +334,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -330,6 +346,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -341,6 +358,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
@@ -509,6 +527,7 @@
                 </svg>
               </a>
             </li>
+
             <li class="footer-soc-item">
               <a
                 class="footer-soc-link"
@@ -520,6 +539,7 @@
                 </svg>
               </a>
             </li>
+
             <li class="footer-soc-item">
               <a
                 class="footer-soc-link"
@@ -531,6 +551,7 @@
                 </svg>
               </a>
             </li>
+
             <li class="footer-soc-item">
               <a
                 class="footer-soc-link"
@@ -544,6 +565,7 @@
             </li>
           </ul>
         </div>
+
         <div class="footer-subscribe-box">
           <p>Subscribe</p>
           <form></form>
@@ -551,14 +573,73 @@
         </div>
       </div>
     </footer>
+
     <div class="backdrop">
       <div class="modal">
-        <p class="modal-text">Leave your contacts and we will call you back</p>
-        <button type="submit" class="modal-btn">
-          <svg class="modal-btn-icon">
-            <use href="./images/icons.svg#"></use>
+        <button type="button" class="modal-close-btn">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="model-field">
+            <label for="user-name" class="model-label">Name</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-input"
+                placeholder=""
+                required
+                id="user-name" />
+              <svg class="input-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="model-field">
+            <label for="user-phone" class="model-label">Phone</label>
+            <div class="input-wrap">
+              <input
+                type="tel"
+                name="user-phone"
+                class="modal-input"
+                placeholder=""
+                required
+                id="user-phone" />
+              <svg class="input-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="model-field">
+            <label for="user-email" class="model-label">Email</label>
+            <div class="input-wrap">
+              <input
+                type="email"
+                name="user-email"
+                class="modal-input"
+                placeholder=""
+                required
+                id="user-email" />
+              <svg class="input-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="model-field">
+            <label for="user-text" class="model-label">Comment</label>
+            <textarea name="Comment" id="user-text" class="comment-text-area" placeholder="Text input"></textarea>
+
+            </div>
+          </div>
+
+          <button type="submit" class="modal-send-btn">Send</button>
+        </form>
       </div>
     </div>
   </body>
