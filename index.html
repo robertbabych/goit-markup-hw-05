@@ -583,14 +583,13 @@
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <div class="model-field">
-            <label for="user-name" class="model-label">Name</label>
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label>
             <div class="input-wrap">
               <input
                 type="text"
                 name="user-name"
                 class="modal-input"
-                placeholder=""
                 required
                 id="user-name" />
               <svg class="input-icon" width="12" height="12">
@@ -599,14 +598,13 @@
             </div>
           </div>
 
-          <div class="model-field">
-            <label for="user-phone" class="model-label">Phone</label>
+          <div class="modal-field">
+            <label for="user-phone" class="modal-label">Phone</label>
             <div class="input-wrap">
               <input
                 type="tel"
                 name="user-phone"
                 class="modal-input"
-                placeholder=""
                 required
                 id="user-phone" />
               <svg class="input-icon" width="12" height="12">
@@ -615,14 +613,13 @@
             </div>
           </div>
 
-          <div class="model-field">
-            <label for="user-email" class="model-label">Email</label>
+          <div class="modal-field">
+            <label for="user-email" class="modal-label">Email</label>
             <div class="input-wrap">
               <input
                 type="email"
                 name="user-email"
                 class="modal-input"
-                placeholder=""
                 required
                 id="user-email" />
               <svg class="input-icon" width="12" height="12">
@@ -631,21 +628,29 @@
             </div>
           </div>
 
-          <div class="model-field">
-            <label for="user-text" class="model-label">Comment</label>
+          <div class="modal-field">
+            <label for="user-text" class="modal-label">Comment</label>
             <textarea
               name="Comment"
               id="user-text"
               class="comment-text-area"
               placeholder="Text input"></textarea>
-            <button type="submit" class="modal-send-btn">Send</button>
           </div>
 
-          <div class="">
-            <label for="yes">
-              I accept the terms and conditions of the Privacy Policy
+          <div class="modal-field">
+            <input
+              class="modal-check"
+              type="checkbox"
+              id="yes"
+              name="yes"
+              value="yes"
+              required />
+            <label for="terms" class="check-text">
+              <span class="terms-box"></span>
+              I accept the terms and conditions of the
+              <a class="checkbox-link" href="">Privacy Policy</a>
             </label>
-            <input type="radio" id="yes" name="yes" value="yes" />
+            <button type="submit" class="modal-send-btn">Send</button>
           </div>
         </form>
       </div>
