@@ -633,6 +633,7 @@ body ul {
 }
 
 .input-icon {
+  display: inline-flex;
   position: absolute;
   fill: #2e2f42;
   left: 16px;
