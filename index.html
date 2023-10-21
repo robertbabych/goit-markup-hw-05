@@ -576,29 +576,26 @@
                 class="footer-subscribe-input"
                 id="subscribe-email"
                 placeholder="E-mail" />
+              <button type="button" class="subscribe-btn">
+                Subscribe
+                <svg class="subscribe-btn-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
             </label>
-
-            <button type="button" class="subscribe-btn">
-              Subscribe
-              <svg class="subscribe-btn-icon" width="24" height="20">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
           </form>
         </div>
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="modal-text">
-          is-openLeave your contacts and we will call you back
-        </p>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-field">
             <label for="user-name" class="modal-label">Name</label>
