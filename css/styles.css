@@ -760,7 +760,7 @@ body ul {
   letter-spacing: 0.04em;
   text-align: left;
   color: #8e8f99;
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
