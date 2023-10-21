@@ -7,7 +7,7 @@ address {
   font-style: normal;
 }
 
-body a:not(.chekbox-link) {
+body a:not(.checkbox-link) {
   text-decoration: none;
 }
 
@@ -488,7 +488,32 @@ body ul {
 }
 .footer-subscribe-box {
 }
+.footer-subscribe-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.footer-subscribe-label {
+}
+
+.footer-subscribe-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  background-color: transparent;
+}
+.footer-subscribe-input::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 16px;
+}
 .subscribe-btn {
   min-width: 165px;
   height: 40px;
@@ -507,8 +532,11 @@ body ul {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin-left: 24px;
 }
-
+.subscribe-btn-icon {
+  fill: #ffffff;
+}
 .subscribe-btn:hover,
 .subscribe-btn:focus {
   background-color: #404bbf;
@@ -708,9 +736,19 @@ body ul {
   margin-right: 8px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .modal-check:checked + .check-text > .terms-box {
   background-color: #404bbf;
   border: 1px solid #404bbf;
+  fill: #f4f4fd;
+}
+
+.modal-check {
+}
+.terms-box-icon {
 }

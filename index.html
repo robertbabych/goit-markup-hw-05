@@ -567,9 +567,22 @@
         </div>
 
         <div class="footer-subscribe-box">
-          <p>Subscribe</p>
-          <form></form>
-          <button type="button" class="subscribe-btn">Subscribe</button>
+          <p class="footer-links-title">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label for="subscribe-email" class="footer-subscribe-label"></label>
+            <input
+              type="email"
+              name="user-email"
+              class="footer-subscribe-input"
+              id="subscribe-email"
+              placeholder="E-mail" />
+            <button type="button" class="subscribe-btn">
+              Subscribe
+              <svg class="subscribe-btn-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -639,14 +652,18 @@
 
           <div class="modal-field">
             <input
-              class="modal-check"
+              class="modal-check visually-hidden"
               type="checkbox"
               id="yes"
               name="yes"
               value="yes"
               required />
             <label for="terms" class="check-text">
-              <span class="terms-box"></span>
+              <span class="terms-box">
+                <svg class="terms-box-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
               <a class="checkbox-link" href="">Privacy Policy</a>
             </label>
