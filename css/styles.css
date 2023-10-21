@@ -503,7 +503,7 @@ body ul {
   height: 40px;
   border-radius: 4px;
   border: 1px solid #ffffff;
-  box-shadow: 0px 4px 4px 0px #00000026;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
   font-size: 12px;
   font-weight: 400;
@@ -511,6 +511,7 @@ body ul {
   letter-spacing: 0.04em;
   text-align: left;
   color: #ffffff;
+  padding-left: 16px;
 }
 .footer-subscribe-input::placeholder {
   font-size: 12px;
@@ -519,7 +520,6 @@ body ul {
   letter-spacing: 0.04em;
   text-align: left;
   color: #ffffff;
-  padding-left: 16px;
 }
 .subscribe-btn {
   padding: 0;
