@@ -775,7 +775,6 @@ body ul {
 }
 
 .terms-box {
-  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -784,6 +783,7 @@ body ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
