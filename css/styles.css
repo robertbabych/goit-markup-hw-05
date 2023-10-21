@@ -187,7 +187,7 @@ body ul {
   cursor: pointer;
   top: 20px;
   left: 20px;
-  padding: 16px, 32px, 16px, 32px;
+  padding: 16px 32px;
   border-radius: 4px;
   border: none;
   display: block;
@@ -517,7 +517,7 @@ body ul {
 .subscribe-btn {
   min-width: 165px;
   height: 40px;
-  padding: 8px, 24px, 8px, 24px;
+  padding: 8px 24px;
   border-radius: 4px;
   gap: 16px;
   background-color: #4d5ae5;
@@ -573,8 +573,7 @@ body ul {
   transform: translate(-50%, -50%);
 }
 .modal-close-btn {
-  background-color: linear-gradient(0deg, #e7e9fc, #e7e9fc),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  background: linear-gradient(0deg, #e7e9fc, #e7e9fc);
   border: 1px solid #0000001a;
   position: absolute;
   top: 24px;
@@ -632,7 +631,7 @@ body ul {
 .modal-send-btn {
   width: 169px;
   height: 56px;
-  padding: 16px, 32px, 16px, 32px;
+  padding: 16px 32px;
   border-radius: 4px;
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px #00000026;
