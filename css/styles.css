@@ -798,4 +798,5 @@ body ul {
 .modal-check {
 }
 .terms-box-icon {
+  display: inline-flex;
 }
