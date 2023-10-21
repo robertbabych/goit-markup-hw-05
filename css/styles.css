@@ -672,7 +672,6 @@ body ul {
   color: #ffffff;
   border: 0;
   cursor: pointer;
-  margin-top: 24px;
   margin-bottom: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -707,13 +706,16 @@ body ul {
 
 .modal-field {
 }
+.user-privacy-field {
+  margin-bottom: 24px;
+}
 .modal-label {
 }
 .comment-text-area {
   font-family: Roboto;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   text-align: left;
   width: 360px;
@@ -729,7 +731,6 @@ body ul {
 }
 .text-area-field {
   margin-bottom: 16px;
-  margin-bottom: 8px;
 }
 .comment-text-area:hover,
 .comment-text-area:focus {
@@ -756,6 +757,7 @@ body ul {
 }
 
 .checkbox-link {
+  display: inline-flex;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.15;
